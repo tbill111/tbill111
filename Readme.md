@@ -47,27 +47,11 @@
 
 ## 📊 Đánh Giá & Thống Kê Năng Lực
 
-### 🎯 Bản Đồ Đánh Giá Kỹ Năng Thực Chiến (Tự Thiết Kế bằng SVG)
-<div align="center">
-  <svg width="600" height="180" viewBox="0 0 600 180" xmlns="http://www.w3.org/2000/svg" style="background: #0d1117; border-radius: 10px; border: 1px solid #30363d; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
-    <text x="25" y="35" fill="#58a6ff" font-size="16" font-weight="bold">💡 Tech Stack Level & Hands-on Experience</text>
-    
-    <text x="25" y="70" fill="#c9d1d9" font-size="13" font-weight="500">Frontend / Mobile (Next.js, Flutter)</text>
-    <rect x="300" y="58" width="220" height="12" rx="6" fill="#21262d"/>
-    <rect x="300" y="58" width="198" height="12" rx="6" fill="#388bfd"/>
-    <text x="535" y="70" fill="#8b949e" font-size="12" font-weight="bold">90%</text>
-
-    <text x="25" y="105" fill="#c9d1d9" font-size="13" font-weight="500">Backend API (FastAPI, Node.js, .NET)</text>
-    <rect x="300" y="93" width="220" height="12" rx="6" fill="#21262d"/>
-    <rect x="300" y="93" width="187" height="12" rx="6" fill="#56d364"/>
-    <text x="535" y="105" fill="#8b949e" font-size="12" font-weight="bold">85%</text>
-
-    <text x="25" y="140" fill="#c9d1d9" font-size="13" font-weight="500">Cloud-Native & DevOps (GCP, Docker, CF)</text>
-    <rect x="300" y="128" width="220" height="12" rx="6" fill="#21262d"/>
-    <rect x="300" y="128" width="176" height="12" rx="6" fill="#ff7b72"/>
-    <text x="535" y="140" fill="#8b949e" font-size="12" font-weight="bold">80%</text>
-  </svg>
-</div>
+| Lĩnh Vực Kỹ Thuật | Đánh Giá Mức Độ | Trải Nghiệm Thực Tế |
+| :--- | :---: | :--- |
+| **Frontend / Mobile**<br>*(Next.js, Flutter, React)* | `█████████░` **90%** | Xây dựng UI/UX phức tạp, tối ưu hóa SEO (SSR/SSG), phát triển Mobile App đa nền tảng. |
+| **Backend API**<br>*(FastAPI, Node.js, .NET Core)* | `████████░░` **85%** | Thiết kế Microservices, xử lý luồng dữ liệu bất đồng bộ (Async), quản lý đồng thời cao. |
+| **Cloud-Native & DevOps**<br>*(GCP, Docker, Cloudflare)* | `███████░░░` **80%** | Ứng dụng Serverless, tối ưu hóa chi phí vận hành, xây dựng CI/CD Pipeline. |
 
 ---
 
@@ -75,8 +59,8 @@
 
 | Tên Dự Án | Mô Tả Hệ Thống | Stack Công Nghệ & Cloud Services |
 |---|---|---|
-| **[Cloud-Native Flashcard (VocabFlow)](#)** | Hệ thống học từ vựng Flashcard thông minh. Thiết kế theo chuẩn **Microservices & Cloud-Native** giúp tự động mở rộng (Auto-scaling), tối ưu chi phí vận hành tiếp cận $0 (Pay-as-you-go). | **Frontend:** `Next.js` deploy on `Cloudflare Pages`<br>**Backend:** `Node.js`/`FastAPI` đóng gói `Docker` deploy on `GCP Cloud Run`<br>**19 Cloud Services** (Xem chi tiết kiến trúc bên dưới) |
-| **[E-learning DRM](#)** | Hệ thống bảo vệ bản quyền bài giảng trực tuyến, tích hợp Watermarking và nhận diện FaceID chống gian lận. | `.NET Core`, `Python`, `Google Cloud Storage` |
+| **[Cloud-Native Flashcard (VocabFlow)](#)** | Hệ thống học từ vựng Flashcard thông minh. Thiết kế theo chuẩn **Microservices & Cloud-Native** giúp tự động mở rộng (Auto-scaling), tối ưu chi phí vận hành tiếp cận $0 (Pay-as-you-go). | **Frontend:** `Node.js` deploy on `Cloudflare Pages`<br>**Backend:** `Node.js`/`FastAPI` đóng gói `Docker` deploy on `GCP Cloud Run`<br>**19 Cloud Services** (Xem chi tiết kiến trúc bên dưới) |
+| **[E-learning DRM](#)** | Hệ thống bảo vệ bản quyền bài giảng trực tuyến, tích hợp Watermarking và nhận diện FaceID chống gian lận. | `Next.js `.NET Core`, `Python`, `Google Cloud Storage` |
 | **[Code Dream Exam Platform](#)** | Hệ thống thi trắc nghiệm trực tuyến với khả năng tự động tạo ma trận đề thi và tự động chấm điểm. | `React`, `FastAPI`, `PostgreSQL` |
 | **[Code Dream Center Management](#)** | Hệ thống ERP quản lý toàn diện các hoạt động, học viên, lịch học và doanh thu cho trung tâm công nghệ Code Dream. | `Next.js`, `Node.js`, `PostgreSQL`, `Docker` |
 | **[SmartLife App](#)** | Nền tảng di động đa chức năng hỗ trợ sinh viên trong học tập, quản lý tài chính cá nhân và kết nối xã hội. | `Flutter`, `FastAPI`, `Redis`, `PostgreSQL` |

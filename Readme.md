@@ -53,7 +53,7 @@
 
 <div align="center">
   <!-- Thay your-username thành tên thật của bạn ở mục username=... -->
-  <img src="https://github-readme-stats.vercel.app/api?username=giangthanhtung&show_icons=true&theme=radium&hide_border=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=thanhtung111205&show_icons=true&theme=radium&hide_border=true" width="48%" />
   
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=giangthanhtung&layout=compact&theme=radium&hide_border=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thanhtung111205&layout=compact&theme=radium&hide_border=true" width="48%" />
 </div>

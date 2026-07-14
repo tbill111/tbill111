@@ -4,7 +4,8 @@
   ### 👨‍💻 Full-Stack Developer & Sinh Viên Hệ Thống Thông Tin
   
   <p align="center">
-    <a href="mailto:your-email@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+    <a href="https://www.facebook.com/thanh.tungg.638184/"><img src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white" /></a>
+    <a href="mailto:gthanhtungg24@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
     <a href="https://linkedin.com/in/your-linkedin"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   </p>
 </div>
@@ -29,10 +30,10 @@
 
 **Backend Frameworks**
 <p>
-  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
   <img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi" />
   <img src="https://img.shields.io/badge/.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
 </p>
 
 **DevOps, Database, Cloud Services & Tools**
@@ -60,7 +61,7 @@
 | Tên Dự Án | Mô Tả Hệ Thống | Stack Công Nghệ & Cloud Services |
 |---|---|---|
 | **[Cloud-Native Flashcard (VocabFlow)](#)** | Hệ thống học từ vựng Flashcard thông minh. Thiết kế theo chuẩn **Microservices & Cloud-Native** giúp tự động mở rộng (Auto-scaling), tối ưu chi phí vận hành tiếp cận $0 (Pay-as-you-go). | **Frontend:** `Node.js` deploy on `Cloudflare Pages`<br>**Backend:** `Node.js`/`FastAPI` đóng gói `Docker` deploy on `GCP Cloud Run`<br>**19 Cloud Services** (Xem chi tiết kiến trúc bên dưới) |
-| **[E-learning DRM](#)** | Hệ thống bảo vệ bản quyền bài giảng trực tuyến, tích hợp Watermarking và nhận diện FaceID chống gian lận. | `Next.js `.NET Core`, `Python`, `Google Cloud Storage` |
+| **[E-learning DRM](#)** | Hệ thống bảo vệ bản quyền bài giảng trực tuyến, tích hợp Watermarking và nhận diện FaceID chống gian lận. | `Next.js`, `.NET Core`, `Python`, `Google Cloud Storage` |
 | **[Code Dream Exam Platform](#)** | Hệ thống thi trắc nghiệm trực tuyến với khả năng tự động tạo ma trận đề thi và tự động chấm điểm. | `React`, `FastAPI`, `PostgreSQL` |
 | **[Code Dream Center Management](#)** | Hệ thống ERP quản lý toàn diện các hoạt động, học viên, lịch học và doanh thu cho trung tâm công nghệ Code Dream. | `Next.js`, `Node.js`, `PostgreSQL`, `Docker` |
 | **[SmartLife App](#)** | Nền tảng di động đa chức năng hỗ trợ sinh viên trong học tập, quản lý tài chính cá nhân và kết nối xã hội. | `Flutter`, `FastAPI`, `Redis`, `PostgreSQL` |
@@ -80,6 +81,7 @@ Dự án ứng dụng tối đa mô hình **Serverless** và **Edge Computing** 
 - **CI/CD:** Giám sát lỗi realtime với `Sentry`, tự động hóa deploy toàn bộ hạ tầng bằng `GitHub Actions`.
 
 ### 2. E-learning DRM (Digital Rights Management)
+- **Thiết kế Frontend:** Ứng dụng `Next.js` (App Router) xây dựng trang quản trị ERP phức tạp. Tận dụng Server-Side Rendering (SSR) để tối ưu hóa SEO cho các trang public và Client-Side Rendering (CSR) cho các dashboard quản trị cần tương tác mượt mà.
 - **Kiến trúc Microservices (Đa ngôn ngữ):** Hệ thống phân tách rõ ràng trách nhiệm. ` .NET Core` đóng vai trò là Core Backend vững chắc, xử lý phân quyền và luồng nghiệp vụ kinh doanh. 
 - **Tích hợp xử lý Media & AI:** Một microservice độc lập viết bằng `Python` được gọi để thực hiện các tác vụ tính toán nặng như chèn Watermark động vào video và sử dụng công nghệ thị giác máy tính để nhận diện khuôn mặt (FaceID) người học chống gian lận.
 
@@ -88,7 +90,7 @@ Dự án ứng dụng tối đa mô hình **Serverless** và **Edge Computing** 
 - **Tự động hóa giáo dục:** Thiết kế thuật toán thông minh ở backend giúp hệ thống tự động bốc tách, xáo trộn câu hỏi để tạo Ma trận đề thi động và tính năng tự động chấm điểm ngay khi nộp bài. Frontend dùng `React` để quản lý state phức tạp của bài thi thời gian thực.
 
 ### 4. Code Dream Center Management
-- **Thiết kế Frontend:** Ứng dụng `Next.js` (App Router) xây dựng trang quản trị ERP phức tạp. Tận dụng Server-Side Rendering (SSR) để tối ưu hóa SEO cho các trang public và Client-Side Rendering (CSR) cho các dashboard quản trị cần tương tác mượt mà.
+- **Thiết kế Frontend:** Ứng dụng `React.js`.
 - **Thiết kế Backend:** Xây dựng hệ thống RESTful API chuẩn mực bằng `Node.js`, quản lý các nghiệp vụ phức tạp như xếp lịch học, tính toán doanh thu tự động. Đóng gói toàn bộ ứng dụng bằng `Docker` giúp đồng nhất môi trường từ lúc phát triển đến khi triển khai thực tế.
 
 ### 5. SmartLife App
@@ -97,16 +99,16 @@ Dự án ứng dụng tối đa mô hình **Serverless** và **Edge Computing** 
 
 ### 6. Student Depression Prediction (Data Mining Research)
 - **Quy trình Khoa học dữ liệu chuẩn mực:** Dự án là minh chứng cho khả năng áp dụng lý thuyết vào thực tế. Bắt đầu từ việc làm sạch và tiền xử lý bộ dữ liệu thô bằng `Pandas`.
-- **Triển khai Mô hình:** Huấn luyện và tinh chỉnh các thuật toán phân loại và phân cụm như *K-Means, Random Forest, Logistic Regression* thông qua `Scikit-learn` để tìm ra các mẫu (patterns) tiềm ẩn, từ đó xây dựng hệ thống dự đoán nguy cơ mắc bệnh trầm cảm phục vụ mục đích nghiên cứu học thuật.
+- **Triển khai Mô hình:** Huấn luyện và tinh chỉnh các thuật toán phân loại và phân cụm như *K-Means, Random Forest, Logistic Regression, Naive Bayes* thông qua `Scikit-learn` và **các thuật toán tự code thủ công** để tìm ra các mẫu (patterns) tiềm ẩn, từ đó xây dựng hệ thống dự đoán nguy cơ mắc bệnh trầm cảm phục vụ mục đích nghiên cứu học thuật.
 
 ---
 
 ## 📊 Thống Kê Hoạt Động GitHub
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=thanhtung111205&show_icons=true&theme=radium&hide_border=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=thanhtung111205&show_icons=true&theme=radium&hide_border=true&cache_seconds=86400" width="48%" />
   
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thanhtung111205&layout=compact&theme=radium&hide_border=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thanhtung111205&layout=compact&theme=radium&hide_border=true&cache_seconds=86400" width="48%" />
 </div>
 
 <div align="center">
